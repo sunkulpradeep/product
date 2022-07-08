@@ -7,26 +7,31 @@ p{
   font-family: 'Montserrat', sans-serif;
 }
 
+h1{
+  font-size: 2em;
+}
+
 
 .container{
   display:flex;
   width: 50%;
-  margin: 150px auto;
+  margin: 150px auto 150px auto;
 }
 
 .img{
-  width: 250px;
-  height: 410px;
+  width: 300px;
+  height: 460px;
   border-radius: 15px 0 0 15px;
 }
 
-.data{
+.data-card{
   width: 250px;
-  height: 400px;
+  height: 460px;
   background-color: #FFFFFF;
   border-radius: 0 15px 15px 0;
   text-align: left;
-  padding: 10px 0px 0 10px;
+  padding-left: 25px;
+  padding-right: 10px;
 
 }
 
@@ -52,8 +57,8 @@ p{
 
 .m-price{
   text-decoration: line-through;
-   margin-top: 25px;
-   margin-left: 15px;
+   margin-top: 40px;
+   margin-left: 10px;
 }
 .btn {
   background: #377D71;
@@ -65,14 +70,19 @@ p{
   -webkit-border-radius: 9px;
   -moz-border-radius: 9px;
   border-radius: 9px;
-  font-family: Arial;
+  font-family: 'Montserrat', sans-serif;
   color: #ffffff;
-  font-size: 20px;
+  font-size: 15px;
   padding: 5px 40px 5px 40px;
+  border-color: #377D71;
   text-decoration: none;
+  border-color: #377D71;
+  display: inline-flex;
+
 }
 
 .btn-img{
   width: 20px;
   height: 20px;
+  margin-right: 10px;
 }
