@@ -1,70 +1,60 @@
 body{
-   background-color: #FDF6EC;
-   text-align: center;
+  background-color: #F9F2ED;
 }
 
 p{
+  color: #7F8487 ;
   font-family: 'Montserrat', sans-serif;
 }
 
-.describe{
-  width: 40%;
-  margin: 150px auto 150px auto;
-  border-radius: 10px;
+
+.container{
+  display:flex;
+  width: 50%;
+  margin: 150px auto;
+}
+
+.img{
+  width: 250px;
+  height: 410px;
+  border-radius: 15px 0 0 15px;
+}
+
+.data{
+  width: 250px;
+  height: 400px;
+  background-color: #FFFFFF;
+  border-radius: 0 15px 15px 0;
+  text-align: left;
+  padding: 10px 0px 0 10px;
+
+}
+
+.price{
   display: inline-flex;
 }
 
-.block-2{
-  width: 300px;
-  height: 435px;
-  background-color: #FFFFFF;
-  text-align: left;
-  padding:15px 20px 0 15px;
-  border-radius: 0 15px 15px 0;
-
+.header{
+  letter-spacing: 5px;
+  font-family: 'Fraunces', serif;
 }
-
-
-.img{
-  width: 300px;
-  height: 450px;
-  border-radius: 10px 0 0 10px;
-
-}
-
-
-
-.describe p{
-  font-weight: lighter;
-}
-
-
 
 .main-h{
   font-family: 'Fraunces', serif;
-
-}
-
-.heading{
-  margin-top:10px;
+  color:black;
+  font-weight: bolder;
 }
 
 .d-price{
-  float: left;
-  margin:0 20px 10px 0;
   font-family: 'Fraunces', serif;
   color:#377D71;
 }
 
 .m-price{
-   margin: 10px 10px 0 0px;
-   padding: 10px;
-   text-decoration: line-through;
+  text-decoration: line-through;
+   margin-top: 25px;
+   margin-left: 15px;
 }
-
-
-
-
 .btn {
   background: #377D71;
   background-image: -webkit-linear-gradient(top, #377D71, #377D71);
@@ -72,21 +62,17 @@ p{
   background-image: -ms-linear-gradient(top, #377D71, #377D71);
   background-image: -o-linear-gradient(top, #377D71, #377D71);
   background-image: linear-gradient(to bottom, #377D71, #377D71);
-  -webkit-border-radius: 8;
-  -moz-border-radius: 8;
-  border-radius: 8px;
-  font-family: Georgia;
+  -webkit-border-radius: 9px;
+  -moz-border-radius: 9px;
+  border-radius: 9px;
+  font-family: Arial;
   color: #ffffff;
   font-size: 20px;
-  padding: 12px 40px 12px 40px;
+  padding: 5px 40px 5px 40px;
   text-decoration: none;
-  text-align: center;
-  margin: 10px 10px 5px 0;
-
 }
 
 .btn-img{
-  height: 20px;
   width: 20px;
-  margin-right: 15px;
+  height: 20px;
 }
