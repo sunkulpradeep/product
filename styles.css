@@ -10,37 +10,43 @@ p{
 .describe{
   width: 40%;
   margin: 150px auto 150px auto;
-  text-align: left;
-  background-color: #FFFFFF;
   border-radius: 10px;
+  display: inline-flex;
+}
+
+.block-2{
+  width: 300px;
+  height: 435px;
+  background-color: #FFFFFF;
+  text-align: left;
+  padding:15px 20px 0 15px;
+  border-radius: 0 15px 15px 0;
 
 }
 
 
 .img{
   width: 300px;
-  height: 505px;
-  float:left;
-  margin-right: 30px;
+  height: 450px;
   border-radius: 10px 0 0 10px;
+
 }
 
 
 
 .describe p{
   font-weight: lighter;
-  margin-left: 20px;
-  line-height: 2;
 }
+
+
 
 .main-h{
   font-family: 'Fraunces', serif;
+
 }
 
 .heading{
-  padding-top: 10px;
-  margin-top:20px;
-
+  margin-top:10px;
 }
 
 .d-price{
@@ -51,7 +57,7 @@ p{
 }
 
 .m-price{
-   margin: 10px 10px 20px 10px;
+   margin: 10px 10px 0 0px;
    padding: 10px;
    text-decoration: line-through;
 }
@@ -72,11 +78,10 @@ p{
   font-family: Georgia;
   color: #ffffff;
   font-size: 20px;
-  padding: 10px 50px 10px 50px;
+  padding: 12px 40px 12px 40px;
   text-decoration: none;
   text-align: center;
-  margin: 10px auto;
-  margin-bottom: 30px;
+  margin: 10px 10px 5px 0;
 
 }
 
